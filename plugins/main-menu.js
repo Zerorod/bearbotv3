@@ -78,8 +78,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   'shortlink': 'SHORT LINK',
   'tools': 'MENU TOOLS',
   'vote': 'MENU VOTING',
-  'nsfw': 'NSFW MENU', 
-  'asupan': 'ASUPAN MENU', 
+
+
   'random': 'RANDOM MENU', 
   'textpro': 'TEXT PRO MENU', 
   'photooxy': 'PHOTO OXY MENU', 
@@ -328,10 +328,6 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "Menampilkan Menu Absen",
                   "rowId": `${_p}? absen`
                 }, {
-                  "title": "│⛩️│ANIME",
-                  "description": "Menampilkan Menu Anime",
-                  "rowId": `${_p}? anime`
-                }, {
                   "title": "│🎇│STICKER & CONVERTER",
                   "description": "Menampilkan Menu Sticker",
                   "rowId": `${_p}? sticker`
@@ -415,10 +411,6 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "title": "│📃│TEXT MAKER",
                   "description": "Menampilkan Maker Text",
                   "rowId": `${_p}? text`
-                }, {
-                  "title": "│🧼│HENTAI",
-                  "description": "Menampilkan Menu Hentai",
-                  "rowId": `${_p}? nsfw`
                 }, {
                   "title": "│🌚│RANDOM",
                   "description": "Menampilkan Menu Random/Gabut",
