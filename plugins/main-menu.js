@@ -67,7 +67,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   'info': 'MENU INFO',
   'internet': 'INTERNET',
   'islam' : 'MENU ISLAMI',
-  'kerang': 'MENU KERANG',
+
 
   'owner': 'MENU OWNER',
   'Pengubah Suara': 'PENGUBAH SUARA',
