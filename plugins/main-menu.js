@@ -23,7 +23,7 @@ let moment = require('moment-timezone')
 const defaultMenu = {
   before:`
 ┌─「 *${global.namebot}* 」
-├ Hai, ${ye}!
+├ Hai, %name!
 ├ Tersisa *%limit Limit*
 ├ Role *%role*
 ├ Level *%level (%exp / %maxexp)*
@@ -290,7 +290,7 @@ let menuu = `┌────「 *${namebot}* 」───⬣
 │⬡ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
 │⬡ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
 ╰──────⬣
-┌────「 *${ye}* 」───⬣
+┌────「 *${name}* 」───⬣
 │⬡ Api : ${tag}
 │⬡ Limit : ${limit}
 │⬡ Role : ${role}
