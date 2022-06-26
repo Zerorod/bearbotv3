@@ -388,14 +388,6 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "Menampilkan Menu Premium",
                   "rowId": `${_p}? premium`
                 }, {
-                  "title": "│📑│QUOTES",
-                  "description": "Menampilkan Menu Quotes",
-                  "rowId": `${_p}? quotes`
-                }, {
-                  "title": "│🌱│RPG",
-                  "description": "Menampilkan Menu Rpg",
-                  "rowId": `${_p}? rpg`
-                }, {
                   "title": "│🐾│STALKER",
                   "description": "Menampilkan Menu Stalker",
                   "rowId": `${_p}? stalk`
@@ -408,21 +400,9 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "Menampilkan Menu Tools",
                   "rowId": `${_p}? tools`
                 }, {
-                  "title": "│📃│TEXT MAKER",
-                  "description": "Menampilkan Maker Text",
-                  "rowId": `${_p}? text`
-                }, {
-                  "title": "│🌚│RANDOM",
-                  "description": "Menampilkan Menu Random/Gabut",
-                  "rowId": `${_p}? random`
-                }, {
-                  "title": "│⛄│TEXT PRO",
-                  "description": "Menampilkan Text Pro Menu",
-                  "rowId": `${_p}? textpro`
-                }, {
-                  "title": "│💨│PHOTO OXY",
+                  "title": "│💨│OWNER",
                   "description": "Menampilkan Photo Oxy Menu",
-                  "rowId": `${_p}? textpro`
+                  "rowId": `${_p}? .owner`
                 }
                   ],
                 "title": "LIST MENU"
